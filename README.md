@@ -1,10 +1,8 @@
 # test_gradio_dataset_0.0.2
-This repository is dedicated to testing the features of the Gradio dataset component (version 0.0.2), particularly focusing on Test Case 3. The repository includes a test file, test_gdataset.py, which demonstrates new features like default sorting, column customization, and togglable checkbox components within a table.
-
+This repository is dedicated to testing the features of the Gradio dataset component (version 0.0.2), particularly focusing on Test Case 3. 
 ## Installation
 
 To install the new version of the Gradio dataset component as a library, use the `gdataset_0.0.2.whl` file.
-
 
 ### Steps to Install
 1. Download the `gdataset_0.0.2.whl` file.
@@ -12,7 +10,8 @@ To install the new version of the Gradio dataset component as a library, use the
    ```bash
    pip install path/to/gdataset_0.0.2.whl
    ```
-Replace path/to with the actual directory path where the .whl file is located.
+Please replace path/to with the actual directory path where the .whl file is located.
+
 ### Additional Dependency
 
 This application also requires the `gradio-modal-component` library (version 0.0.8) to enable modal functionality. Please install it with the following command:
@@ -33,12 +32,23 @@ Togglable Checkbox Component: Create a table with a checkbox column by passing a
 
 ## Usage
 
-To test these features, use the test_gdataset.py file provided in this repository.
+To test these features, please use the test_gdataset.py file provided in this repository.
 
 ### Running the Test Script
 Ensure you have installed the library from .whl file as described above.
 Run the test script using Python:
    ```bash
-   python main002.py
+   python test_gdataset.py
    ```
 
+### Accessing the Gradio Interface and Modifying Test Case 3
+
+After successfully installing the required libraries and running the test script, please use your browser to access the link provided by Gradio in the terminal. This link will open the interactive interface for **Test Case 3**, which showcases the new features.
+
+#### Customizing Column Structure in Test Case 3
+
+If you need to make changes to the column structure, please adjust it during the initialization of **Test Case 3** in the `test_gradio.py` file. Locate the following line:
+
+```python
+three_col_ds3 = GDataset(...)
+```
