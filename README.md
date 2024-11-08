@@ -24,8 +24,11 @@ This application also requires the `gradio-modal-component` library (version 0.0
 ## Feature
 
 The Gradio dataset component version 0.0.2 introduces the following features:
+
 Default Sorting: Allows setting a default sorting order.
+
 Column Customization: Enables modification of column widths, as well as header and column text alignment.
+
 Togglable Checkbox Component: Create a table with a checkbox column by passing a component of type gr.Checkbox into GDataset.
 
 ## Usage
