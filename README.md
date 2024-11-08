@@ -5,10 +5,10 @@ This repository is dedicated to testing the features of the Gradio dataset compo
 To install the new version of the Gradio dataset component as a library, use the `gdataset_0.0.2.whl` file.
 
 ### Steps to Install
-1. Download the `gdataset_0.0.2.whl` file.
+1. Download the `gradio_gdataset-0.0.2-py3-none-any.whl` file.
 2. Install the `.whl` file with the following command:
    ```bash
-   pip install path/to/gdataset_0.0.2.whl
+   pip install path/to/gradio_gdataset-0.0.2-py3-none-any.whl
    ```
 Please replace path/to with the actual directory path where the .whl file is located.
 
